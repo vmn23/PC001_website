@@ -6,23 +6,23 @@ def index(request):
     return render(request, 'landing/index.html', context)
 
 def journey1(request):
-    context = {}
+    context = {'back':'', 'forward':'journey2', 'progress': '20'}
     return render(request, 'landing/journey1.html', context)
 
 def journey2(request):
-    context = {}
+    context = {'back':'journey1', 'forward':'journey3', 'progress': '40'}
     return render(request, 'landing/journey2.html', context)
 
 def journey3(request):
-    context = {}
+    context = {'back':'journey2', 'forward':'journey4', 'progress': '60'}
     return render(request, 'landing/journey3.html', context)
 
 def journey4(request):
-    context = {}
+    context = {'back':'journey3', 'forward':'journey5', 'progress': '80'}
     return render(request, 'landing/journey4.html', context)
 
 def journey5(request):
-    context = {}
+    context = {'back':'journey4', 'forward':'login', 'progress': '1000'}
     return render(request, 'landing/journey5.html', context)
 
 def homepage(request):
