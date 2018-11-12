@@ -25,10 +25,6 @@ def journey5(request):
     context = {}
     return render(request, 'landing/journey5.html', context)
 
-def login(request):
-    context = {}
-    return render(request, 'landing/login.html', context)
-
 def homepage(request):
     context = {}
     return render(request, 'landing/homepage.html', context)
