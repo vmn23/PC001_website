@@ -7,6 +7,9 @@
     </head>
     <body>
         {% if user.is_authenticated %}
+            <div class="container">
+                <a href="/landing/homepage"><button type="button" class="btn btn-primary"> Home </button></a>
+            </div>
             Hi {{ user.username }}!
             <p><a href="{% url 'logout' %}">logout</a></p>
         {% block body %}
