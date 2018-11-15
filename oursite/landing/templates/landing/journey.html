@@ -9,20 +9,18 @@
     </head>
     <body>
         <nav class="navbar sticky-top navbar-light bg-light">
-        <a href="/landing/"><img src="{% static 'landing/images/logo.png' %}" alt="Temp logo"></a>
-        <a href="/landing/login"><button type="button" class="btn btn-danger"> Skip </button></a>
+            <a href="/landing/"><img src="{% static 'landing/images/logo.png' %}" alt="Temp logo"></a>
+            <a href="/landing/login"><button type="button" class="btn btn-danger"> Skip </button></a>
         </nav>
-        <div style="height: 10px">
-            <div class="progress">
-                <div class="progress-bar h-100" role="progressbar" style="width: {{progress}}%" aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+        <div class="progress">
+            <div class="progress-bar h-100" role="progressbar" style="width: {{progress}}%" aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         {% block body %}
         Base body
         {% endblock %}
         <div class="navbar navbar-default navbar-fixed-bottom">
-        <a href="/landing/{{back}}"><button type="button" class="btn btn-primary"> Back </button></a>
-        <a href="/landing/{{forward}}"><button type="button" class="btn btn-secondary"> Next </button></a>
+            <a href="/landing/{{back}}"><button type="button" class="btn btn-primary"> Back </button></a>
+            <a href="/landing/{{forward}}"><button type="button" class="btn btn-secondary"> Next </button></a>
         </div>
     </body>
 </html>
