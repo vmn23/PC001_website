@@ -6,11 +6,23 @@
 {% endblock %}
 
 {% block body%}
-<h1 class="bebas-font">Login</h1>
-<form method="post">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Login</button>
-</form>
-<a href="/landing/">Create new user</a>
+  <h1 class="bebasFont UJTitle">Login</h1>
+  <div class="loginForm">
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+
+      <div class="navbar navbar-default">
+        <button type="submit">Login</button>
+        <div id="newUserBtn">
+          <a href="/landing/">
+            <button>
+              Create new user
+            </button>
+          </a>
+        </div>
+      </div>
+    </form>
+  </div>
+
 {% endblock %}

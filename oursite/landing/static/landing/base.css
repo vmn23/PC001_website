@@ -7,7 +7,7 @@ body {
     background-color: #bbc7c7;
     color: #000000;
 }
-.bebas-font{
+.bebasFont{
     font-family: "Bebas Neue";
     letter-spacing: 0.4em;
 }
@@ -135,7 +135,7 @@ nav img{
     padding-right: 400px;
 }
 
-.centered-btn{
+.centeredBtn{
     margin-top: 30px;
     margin-left: 47%;
 }
@@ -164,4 +164,13 @@ nav img{
     width:  80%;
     height: 320px;
     background: #979c9c;
+}
+
+.loginForm{
+    margin-left: 41%;
+    margin-top: 3%;
+}
+
+#newUserBtn{
+    margin-right: 75%;
 }
