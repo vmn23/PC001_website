@@ -40,3 +40,15 @@ def buildresume(request):
 def questionnaire(request):
     context = {}
     return render(request, 'landing/questionnaire.html', context)
+
+def job1(request):
+    context = {}
+    return render(request, 'landing/job1.html', context)
+
+def job2(request):
+    context = {}
+    return render(request, 'landing/job2.html', context)
+
+def job3(request):
+    context = {}
+    return render(request, 'landing/job3.html', context)
