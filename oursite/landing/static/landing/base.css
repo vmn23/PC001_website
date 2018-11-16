@@ -21,6 +21,10 @@ h1 {
     color: #5b5f62
 }
 
+h2 {
+    font-size: 16px;
+}
+
 .introBody{
     width: 33%;
     margin-left: 33%;

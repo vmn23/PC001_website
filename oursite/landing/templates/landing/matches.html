@@ -1,5 +1,7 @@
 {% extends "landing/baseAuth.html" %}
 
+{% load static %}
+
 {% block head %}
 <title>Matches</title>
 
@@ -10,20 +12,26 @@
 
     <div class="container">
         <div class="text-center">
-            <ul class="timeline">
-                <a class="badge" href="#">
-                    <img src="{% static 'landing/images/telephone.png' %}" alt="icon - head breathing out">
-                    <h2 class="bebas-font">Customer Service Representative</h2>
-                </a>
-                <a class="badge" href="#">
-                    <img src="{% static 'landing/images/stethoscope.png' %}" alt="icon - two people arm in arm">
-                    <h2 class="bebas-font">Nurse's Aide</h2>
-                </a>
-                <a class="badge" href="#">
-                    <img src="{% static 'landing/images/house.png' %}" alt="icon - resume with a pen">
-                    <h2 class="bebas-font">Real Estate Sales Associate</h2>
-                </a>
-            </ul>
+            <div class="row">
+                <div class="col-sm">
+                    <a href="#">
+                        <img src="{% static 'landing/images/stethoscope.png' %}" alt="icon - two people arm in arm">
+                        <h2 class="bebas-font">Nurse's Aide</h2>
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <a href="#">
+                        <img src="{% static 'landing/images/telephone.jpeg' %}" alt="icon - head breathing out">
+                        <h2 class="bebas-font">Customer Service Representative</h2>
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <a href="#">
+                        <img src="{% static 'landing/images/house.png' %}" alt="icon - resume with a pen">
+                        <h2 class="bebas-font">Real Estate Sales Associate</h2>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 {% endblock %}
