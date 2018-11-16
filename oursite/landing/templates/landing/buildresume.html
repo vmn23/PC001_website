@@ -1,10 +1,15 @@
 {% extends "landing/baseauth.html" %}
+{% load static %}
 
 {% block head %}
 <title>Build resume</title>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 {% endblock %}
 
 {% block body%}
-Build resume
+    <h1>Here is a resume that we populated for you to get you started! Take a look and download it if it seems good to you.</h1>
+    <iframe src="https://drive.google.com/file/d/1xuzufdb_o3bui37JiN6BewYK-Sm-RPRe/preview" width="100%" height="480"></iframe>
+    <form method="get" action="{% static '/landing/Resume.docx' %}">
+        <button class="btn btn-primary" style="width:100%"><i class="fa fa-download"></i> Download</button>
+    </form>
 {% endblock %}
