@@ -13,7 +13,9 @@
             <a href="/landing/homepage">
                 <img src="{% static 'landing/images/logo.png' %}" alt="Temp logo">
             </a>
-            Hi {{ user.username }}!
+
+            <h1 class="bebas-font">Hi {{ user.username }}!</h1>
+
             <a href="{% url 'logout' %}">
                 <button type="button" class="btn skipBtn"> Logout</button>
             </a>
