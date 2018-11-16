@@ -1,0 +1,69 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static '/landing/base.css' %}">
+        {% block head%}
+        Base head
+        {% endblock %}
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-light">
+            <a href="/landing">
+                <img src="{% static 'landing/images/logo.png' %}" alt="TARA's logo">
+            </a>
+
+            <a href="/landing/login">
+                <button type="button" class="btn skipBtn"> Skip</button>
+            </a>
+        </nav>
+
+        {% block body %}
+        Base body
+        {% endblock %}
+
+        <div class="navbar navbar-default navbar-fixed-bottom">
+            <a href="/landing/{{back}}">
+                <button type="button" class="btn navBtn"> Back</button>
+            </a>
+
+            <a href="/landing/{{forward}}">
+                <button type="button" class="btn navBtn"> Next</button>
+            </a>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="text-center">
+                    <ul class="timeline">
+                        <a class="badge" href="#">
+                            <img src="{% static 'landing/images/icon1.png' %}" alt="icon - head breathing out">
+                            <div class="circle"></div>
+                            <h4 class="bebas-font">Breathe</h4>
+                        </a>
+                        <a class="badge" href="#">
+                            <img src="{% static 'landing/images/icon2.png' %}" alt="icon - two people arm in arm">
+                            <div class="circle"></div>
+                            <h4 class="bebas-font">Assess</h4>
+                        </a>
+                        <a class="badge" href="#">
+                            <img src="{% static 'landing/images/icon3.png' %}" alt="icon - resume with a pen">
+                            <div class="circle"></div>
+                            <h4 class="bebas-font">Prepare</h4>
+                        </a>
+                        <a class="badge" href="#">
+                            <img src="{% static 'landing/images/icon4.png' %}" alt="icon - magnifying glass">
+                            <div class="circle"></div>
+                            <h4 class="bebas-font">Search</h4>
+                        </a>
+                        <a class="last badge" href="#">
+                            <img src="{% static 'landing/images/icon5.png' %}" alt="icon - interviewer talking behind his/her desk">
+                            <div class="circle"></div>
+                            <h4 class="bebas-font">Interview</h4>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </di
+    </body>
+</html>

@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("fonts/BebasNeue Bold.ttf");
+}
+
+body {
+    background-color: #bbc7c7;
+    color: #000000;
+}
+.bebas-font{
+    font-family: "Bebas Neue";
+    letter-spacing: 0.4em;
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+    color: #5b5f62
+}
+
+.introBody{
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.skipBtn{
+    background-color: #ffffff;
+    color: #7d2716;
+}
+
+.navBtn{
+    background-color: #7d2716;
+    color: #ffffff;
+}
+
+.timeline {
+    list-style: none;
+}
+.badge{
+    z-index: 1;
+    width: 19%;
+    color: black;
+    position: relative;
+}
+.badge:hover{
+    color: black;
+}
+.badge::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: #f7ceb8;
+    left: 112px;
+    top: 71px;
+    right: -95px;
+}
+.last.badge::after{
+    display: none;
+}
+
+.badge img{
+    width: 50px;
+}
+
+.timeline .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: #7d2716 solid 3px;
+    margin: 10px auto;
+    background-color: white;
+    z-index: 2;
+}
+
+.footer {
+    background-color: #ffffff;
+    padding: 50px 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+nav img{
+    width: 50px;
+}
+
+.landingLogo{
+    width: 150px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+}
+
+
+.landingTitle{
+    margin-top: 500px;
+    text-align: center;
+}
+
+.landingBody{
+    background-color: #f7ceb8;
+}

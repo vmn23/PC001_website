@@ -35,7 +35,7 @@ def matches(request):
 
 def buildresume(request):
     context = {}
-    return render(request, 'landing/buildresume.html', context)
+    return render(request, 'landing/buildResume.html', context)
 
 def questionnaire(request):
     context = {}
