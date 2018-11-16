@@ -8,13 +8,13 @@
         {% endblock %}
     </head>
     <body>
-        <nav class="navbar sticky-top navbar-light">
+        <nav class="navbar sticky-top topNavBar">
             <a href="/landing">
                 <img src="{% static 'landing/images/logo.png' %}" alt="TARA's logo">
             </a>
 
             <a href="/landing/login">
-                <button type="button" class="btn skipBtn"> Skip</button>
+                <button type="button" class="btn btn-lg skipBtn"> Skip</button>
             </a>
         </nav>
 
@@ -22,14 +22,15 @@
         Base body
         {% endblock %}
 
-        <div class="navbar navbar-default navbar-fixed-bottom">
-            <a href="/landing/{{back}}">
-                <button type="button" class="btn navBtn"> Back</button>
-            </a>
+        <div class="navbar navbar-default bottomBtn">
+                <a href="/landing/{{back}}">
+                    <button type="button" class="btn btn-lg navBtn"> Back</button>
+                </a>
 
-            <a href="/landing/{{forward}}">
-                <button type="button" class="btn navBtn"> Next</button>
-            </a>
+                <a href="/landing/{{forward}}">
+                    <button type="button" class="btn btn-lg navBtn"> Next</button>
+                </a>
+
         </div>
 
         <div class="footer">
@@ -64,6 +65,6 @@
                     </ul>
                 </div>
             </div>
-        </di
+        </div>
     </body>
 </html>

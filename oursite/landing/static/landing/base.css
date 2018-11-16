@@ -116,3 +116,14 @@ nav img{
     margin-left: 450px;
     border: none;
 }
+
+.bottomBtn{
+    padding-left: 400px;
+    padding-right: 400px;
+    top: 100px;
+}
+
+.topNavBar{
+    padding-left: 400px;
+    padding-right: 400px;
+}
