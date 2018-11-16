@@ -13,4 +13,7 @@ urlpatterns = [
     path('matches/', views.matches, name='matches'),
     path('buildresume/', views.buildresume, name='buildresume'),
     path('questionnaire/', views.questionnaire, name='questionnaire'),
+    path('job1/', views.job1, name='job1'),
+    path('job2/', views.job2, name='job2'),
+    path('job3/', views.job3, name='job3'),
 ]
