@@ -139,3 +139,29 @@ nav img{
     margin-top: 50px;
     margin-left: 47%;
 }
+
+.marissaWhite{
+    color: #5b5f62;
+}
+
+
+.marissaWhite:hover{
+    color: #000000;
+}
+
+.jobMatches{
+    margin-top: 240px;
+}
+
+.whiteSquare{
+    padding-top: 10%;
+    width:  80%;
+    height: 320px;
+    background: #ffffff;
+}
+
+.whiteSquare:hover{
+    width:  80%;
+    height: 320px;
+    background: #979c9c;
+}
