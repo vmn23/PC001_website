@@ -3,21 +3,32 @@
 {% load static %}
 
 {% block head %}
-<title>Nurese's aide position</title>
+<title>Nurse's aide position</title>
 {% endblock %}
 
 {% block body%}
 
 
     <div class="container jobMatches">
-        <div class="text-center">
             <div class="row">
                 <div class="col-sm">
-                    <div class="whiteSquare">
-                        <a class="marissaWhite" href="/landing/job2/">
-                            <img src="{% static 'landing/images/stethoscope.png' %}" alt="icon - stethoscope">
-                            <h2 class="bebasFont">Nurse's Aide</h2>
-                        </a>
+                    <div class="whiteSquareJob">
+                        <img src="{% static 'landing/images/stethoscope.png' %}" alt="icon - stethoscope" class="jobImage">
                     </div>
                 </div>
+                <div class="col-sm">
+                    <h3 class="bebasFont">Nurse's aide</h3>
+                    <ul>
+                        <li class="left-align-text">Monitor patients to detect health problems.</li>
+                        <li class="left-align-text">Adjust positions of patients on beds or tables.</li>
+                        <li class="left-align-text">Assist patients with daily activities.  </li>
+                        <li class="left-align-text">Record vital statistics or other health information.</li>
+                        <li class="left-align-text">Assess physical conditions of patients to aid in diagnosis or treatment.</li>
+                        <li class="left-align-text">Monitor patients to detect health problems.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <a href="https://www.newagetraining.com "><button type="button" class="btn navBtn rightBtn"> Do you need training? </button></a>
 {% endblock %}
