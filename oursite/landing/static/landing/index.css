@@ -1,3 +1,18 @@
 #landingBody{
     background-color: #f7ceb8;
 }
+
+.landingLogo{
+    width: 250px;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -125px;
+}
+
+.landingBtn {
+    position: absolute;
+    top: 60%;
+    left: 46.5%;
+}

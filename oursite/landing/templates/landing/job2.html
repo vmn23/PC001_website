@@ -9,13 +9,8 @@
 {% block content%}
 
 
-    <div class="container jobMatches">
+    <div class="container">
             <div class="row">
-                <div class="col-sm">
-                    <div class="whiteSquareJob">
-                        <img src="{% static 'landing/images/stethoscope.png' %}" alt="icon - stethoscope" class="jobImage">
-                    </div>
-                </div>
                 <div class="col-sm">
                     <h3>Nurse's aide</h3>
                     <ul>
@@ -30,5 +25,9 @@
             </div>
         </div>
 
-    <a href="https://www.newagetraining.com "><button type="button" class="btn navBtn rightBtn"> Do you need training? </button></a>
+        <div class="navbar navbar-default bottomNavBar">
+            <a href="https://www.newagetraining.com ">
+                <button type="button" class="btn navBtn"> Do you need training?</button>
+            </a>
+        </div>
 {% endblock %}

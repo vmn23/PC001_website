@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="{% static '/landing/base.css' %}">
+        <link rel="stylesheet" href="{% static '/landing/baseJourney.css' %}">
         {% block head%}
         Base head
         {% endblock %}
@@ -22,7 +23,7 @@
         {% block content %}
         {% endblock %}
 
-        <div class="navbar navbar-default bottomBtn">
+        <div class="navbar navbar-default bottomNavBar">
                 <a href="/landing/{{back}}">
                     <button type="button" class="btn btn-lg navBtn"> Back</button>
                 </a>

@@ -1,8 +1,11 @@
 {% extends "landing/baseauth.html" %}
 
-{% block head %}
-<title>Questionnaire</title>
+{% load static %}
 
+{% block head %}
+    <link rel="stylesheet" href="{% static '/landing/questionnaire.css' %}">
+
+    <title>Questionnaire</title>
 {% endblock %}
 
 {% block content%}

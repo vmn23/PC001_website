@@ -14,7 +14,6 @@ body {
     font-family: "Avenir Light";
 }
 
-
 h1, h2, h3, h4{
     font-family: "Bebas Neue";
     letter-spacing: 0.4em;
@@ -35,14 +34,11 @@ h3 {
     font-size: 20px;
 }
 
-.UJTitle{
-    margin-top: 10%;
-}
+/* Top NavBar */
 
-.introBody{
-    width: 33%;
-    margin-left: 33%;
-    margin-right: 33%;
+.topNavBar{
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .skipBtn{
@@ -50,23 +46,46 @@ h3 {
     color: #ffffff;
 }
 
+/* Body content */
+
+.centeredTitle{
+    margin-top: 10%;
+}
+
+.centeredBtn{
+    margin-top: 30px;
+    margin-left: 47%;
+}
+
+/* Bottom NavBar */
+.bottomNavBar{
+    padding-left: 400px;
+    padding-right: 400px;
+    top: 100px;
+}
+
 .navBtn{
     background-color: #ffffff;
     color: #7d2716;
 }
 
+/* Progess bar */
+
 .timeline {
     list-style: none;
 }
+
 .badge{
     z-index: 1;
     width: 19%;
     color: black;
     position: relative;
 }
+
 .badge:hover{
     color: black;
 }
+
 .badge::after{
     content: '';
     position: absolute;
@@ -76,6 +95,7 @@ h3 {
     top: 71px;
     right: -95px;
 }
+
 .last.badge::after{
     display: none;
 }
@@ -105,104 +125,4 @@ h3 {
 
 nav img{
     width: 50px;
-}
-
-.landingLogo{
-    width: 250px;
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    margin-top: -125px;
-    margin-left: -125px;
-}
-
-
-.landingTitle{
-    margin-top: 500px;
-    text-align: center;
-}
-
-.landingBtn {
-    position: absolute;
-    top: 60%;
-    left: 46.5%;
-}
-
-#qualtricsQuestionnaire{
-    margin-top: 30px;
-    margin-left: 450px;
-    border: none;
-}
-
-.bottomBtn{
-    padding-left: 400px;
-    padding-right: 400px;
-    top: 100px;
-}
-
-.topNavBar{
-    padding-left: 400px;
-    padding-right: 400px;
-}
-
-.centeredBtn{
-    margin-top: 30px;
-    margin-left: 47%;
-}
-
-.marissaWhite{
-    color: #5b5f62;
-}
-
-
-.marissaWhite:hover{
-    color: #000000;
-}
-
-.jobMatches{
-    margin-top: 240px;
-}
-
-.whiteSquare{
-    padding-top: 10%;
-    width:  80%;
-    height: 320px;
-    background: #ffffff;
-}
-
-.whiteSquare:hover{
-    width:  80%;
-    height: 320px;
-    background: #979c9c;
-}
-
-.loginForm{
-    margin-left: 41%;
-    margin-top: 3%;
-}
-
-#newUserBtn{
-    margin-right: 75%;
-}
-
-.rightBtn{
-    margin-top: 30px;
-    margin-left: 85%;
-}
-
-.whiteSquareJob{
-    margin-top: -100px;
-    margin-left: 150px;
-    width:  50%;
-    height: 280px;
-    background: #ffffff;
-}
-
-.text-align-left {
-    text-align: left;
-}
-
-.jobImage {
-    margin-top: 20px;
-    margin-left: 10px;
 }

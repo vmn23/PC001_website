@@ -1,12 +1,15 @@
 {% extends "landing/baseAuth.html" %}
 
-{% block head %}
-<title>Login</title>
+{% load static %}
 
+{% block head %}
+    <link rel="stylesheet" href="{% static '/landing/login.css' %}">
+
+    <title>Login</title>
 {% endblock %}
 
 {% block content%}
-  <h1 class="UJTitle">Login</h1>
+  <h1 class="centeredTitle">Login</h1>
   <div class="loginForm">
     <form method="post">
       {% csrf_token %}
