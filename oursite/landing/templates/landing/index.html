@@ -1,18 +1,19 @@
-{% extends "landing/base.html" %}
-
 {% load static %}
 
-{% block head %}
-<title>T.A.R.A.</title>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static '/landing/base.css' %}">
 
-{% endblock %}
+        <title>T.A.R.A.</title>
+    </head>
+    <body class="landingBody">
+        <img class="landingLogo" src="{% static 'landing/images/landing.png' %}" alt="T.A.R.A.'s logo">
 
-{% block body %}
-    <img class="landingLogo" src="{% static 'landing/images/landing.png' %}" alt="T.A.R.A.'s logo">
-
-    <div class="container">
-        <a href="/landing/journey1/">
-            <button type="button" class="btn btn-lg landingBtn"> Get Started</button>
-        </a>
-    </div>
-{% endblock %}
+        <div class="container">
+            <a href="/landing/journey1/">
+                <button type="button" class="btn btn-lg landingBtn"> Get Started</button>
+            </a>
+        </div>
+    </body>
+</html>
