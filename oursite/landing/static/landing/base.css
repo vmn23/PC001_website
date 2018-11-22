@@ -3,10 +3,17 @@
     src: url("fonts/BebasNeue Bold.ttf");
 }
 
+@font-face {
+    font-family: "Avenir Light";
+    src: url("fonts/AvenirLTStd-Light.otf");
+}
+
 body {
     background-color: #e1d0c8;
     color: #000000;
+    font-family: "Avenir Light";
 }
+
 .bebasFont{
     font-family: "Bebas Neue";
     letter-spacing: 0.4em;
