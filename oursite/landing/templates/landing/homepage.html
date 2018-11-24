@@ -7,14 +7,19 @@
 
 {% block content%}
     <div class="container">
-        <a href="/landing/questionnaire"><button type="button" class="btn navBtn btn-block"> Questionnaire </button></a>
-    </div>
+        <div class="row homePageRow">
+            <button type="button" class="btn homePageButtonShadow"> . </button>
+            <a href="/landing/questionnaire"><button type="button" class="btn homePageButton"> QUESTIONNAIRE </button></a>
+        </div>
 
-    <div class="container">
-        <a href="/landing/matches"><button type="button" class="btn skipBtn btn-block"> Matches </button></a>
-    </div>
+        <div class="row homePageRow">
+            <button type="button" class="btn homePageButtonShadow"> . </button>
+            <a href="/landing/matches"><button type="button" class="btn homePageButton btn-block"> MATCHES </button></a>
+        </div>
 
-    <div class="container">
-        <a href="/landing/buildresume"><button type="button" class="btn navBtn btn-block"> Resume Template </button></a>
+        <div class="row homePageRow">
+            <button type="button" class="btn homePageButtonShadow"> . </button>
+            <a href="/landing/buildresume"><button type="button" class="btn homePageButton btn-block"> RESUME TEMPLATE </button></a>
+        </div>
     </div>
 {% endblock %}

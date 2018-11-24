@@ -44,6 +44,13 @@ h3 {
 .skipBtn{
     background-color: #7d2716;
     color: #ffffff;
+    font-family: 'Bebas Neue';
+    letter-spacing: 0.4em;
+    font-size: 20px;
+}
+
+.skipBtn:hover{
+    background-color: #571b11;
 }
 
 /* Body content */
@@ -67,6 +74,13 @@ h3 {
 .navBtn{
     background-color: #ffffff;
     color: #7d2716;
+    font-family: 'Bebas Neue';
+    letter-spacing: 0.4em;
+    font-size: 20px;
+}
+
+.navBtn:hover{
+    background-color: #bbbbbb;
 }
 
 /* Progess bar */
@@ -125,4 +139,31 @@ h3 {
 
 nav img{
     width: 50px;
+}
+
+/* Homepage buttons */
+.homePageButton {
+    background-color: #bb8f3e;
+    color: #444444;
+    font-size: 30px;
+    padding: 25px;
+    font-family: 'Bebas Neue';
+    width: 500px;
+    margin-left: -490px;
+}
+
+.homePageButtonShadow {
+    background-color: #bb763e;
+    color: #444444;
+    font-size: 30px;
+    padding: 25px;
+    font-family: 'Bebas Neue';
+    width: 500px;
+    margin-top: 10px;
+}
+
+.homePageRow {
+    margin-top: 20px;
+    position: relative;
+    left: 30%;
 }
