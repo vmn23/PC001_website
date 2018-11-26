@@ -14,14 +14,14 @@ body {
     font-family: "Avenir Light";
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
     font-family: "Bebas Neue";
     letter-spacing: 0.4em;
 }
 
 h1 {
     text-align: center;
-    color: #5b5f62;
+    color: #433f3c;
 }
 
 h2 {
@@ -37,8 +37,9 @@ h3 {
 /* Top NavBar */
 
 .topNavBar{
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 90px;
 }
 
 .skipBtn{
@@ -56,7 +57,8 @@ h3 {
 /* Body content */
 
 .centeredTitle{
-    margin-top: 10%;
+    margin-top: 3%;
+    font-size: 2.8em;
 }
 
 .centeredBtn{
@@ -66,8 +68,8 @@ h3 {
 
 /* Bottom NavBar */
 .bottomNavBar{
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 114px;
+    padding-right: 114px;
     top: 100px;
 }
 
@@ -137,8 +139,8 @@ h3 {
     left: 0;
 }
 
-nav img{
-    width: 50px;
+.topNavBar img{
+    width: 85px;
 }
 
 /* Homepage buttons */

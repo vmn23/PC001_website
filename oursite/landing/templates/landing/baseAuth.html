@@ -6,15 +6,13 @@
         {% block head%}
         {% endblock %}
     </head>
-    
+
     <body>
-        <nav class="navbar sticky-top navbar-light">
+        <nav class="navbar sticky-top topNavBar">
             {% if user.is_authenticated %}
             <a href="/landing/homepage">
-                <img src="{% static 'landing/images/logo.png' %}" alt="Temp logo">
+                <img src="{% static 'landing/images/logo.png' %}" alt="TARA's logo">
             </a>
-
-            <p>Hi {{ user.username }}!</p>
 
             <a href="{% url 'logout' %}">
                 <button type="button" class="btn skipBtn"> Logout</button>
