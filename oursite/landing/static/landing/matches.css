@@ -7,18 +7,39 @@
 }
 
 .jobMatches{
-    margin-top: 240px;
+    margin-top: 80px;
+    padding-left: 180px;
 }
 
 .whiteSquare{
     padding-top: 10%;
-    width:  80%;
-    height: 320px;
+    width:  230px;
+    height: 230px;
     background: #ffffff;
 }
 
 .whiteSquare:hover{
-    width:  80%;
-    height: 320px;
+    width:  230px;
+    height: 230px;
     background: #979c9c;
+}
+
+.jobPic{
+    width: 120px;
+    height: 120px;
+    margin-top: 10%;
+}
+
+.jobTitle{
+    height: 30px;
+    text-align: left;
+}
+
+.levelBar{
+    width: 230px;
+    height: 80px;
+}
+
+.customCol{
+    padding: 0px 20px;
 }

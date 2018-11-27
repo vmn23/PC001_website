@@ -25,13 +25,16 @@ h1 {
 }
 
 h2 {
-    text-align: center;
     font-size: 16px;
 }
 
 h3 {
     text-align: left;
     font-size: 20px;
+}
+
+button{
+    overflow-wrap: normal;
 }
 
 /* Top NavBar */
@@ -47,7 +50,7 @@ h3 {
     color: #ffffff;
     font-family: 'Bebas Neue';
     letter-spacing: 0.4em;
-    font-size: 20px;
+    box-shadow: -5px 5px #000000;
 }
 
 .skipBtn:hover{
@@ -57,20 +60,38 @@ h3 {
 /* Body content */
 
 .centeredTitle{
-    margin-top: 3%;
     font-size: 2.8em;
 }
 
 .centeredBtn{
     margin-top: 30px;
-    margin-left: 47%;
+    margin-left: 44%;
+}
+
+.btn-xl-lg-txt {
+    padding: 0px 20px;
+    border-radius: 0px;
+    width: 220px;
+    height: 80px;
+    font-size: 23px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.btn-xl {
+    padding: 10px 30px;
+    border-radius: 0px;
+    font-size: 40px;
+    width: 220px;
+    height: 80px;
 }
 
 /* Bottom NavBar */
 .bottomNavBar{
     padding-left: 114px;
     padding-right: 114px;
-    top: 100px;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 .navBtn{
@@ -78,7 +99,6 @@ h3 {
     color: #7d2716;
     font-family: 'Bebas Neue';
     letter-spacing: 0.4em;
-    font-size: 20px;
 }
 
 .navBtn:hover{
@@ -144,30 +164,27 @@ h3 {
 }
 
 /* Homepage buttons */
-.homePageButton {
-    background-color: #dfbdaa;
-    color: #444444;
-    font-size: 30px;
-    padding: 25px;
-    font-family: 'Bebas Neue';
-    width: 500px;
-    margin-left: -490px;
-}
-
-.homePageButtonShadow {
-    background-color: #b76751;
-    color: #444444;
-    font-size: 30px;
-    padding: 25px;
-    font-family: 'Bebas Neue';
-    width: 500px;
-    margin-top: 10px;
+.homePageContainer {
+    margin-top: 150px;
 }
 
 .homePageRow {
     margin-top: 20px;
     position: relative;
-    left: 30%;
+    padding: 0% 48% 0% 22%;
+}
+
+.homePageButton {
+    background-color: #dfbdaa;
+    color: #444444;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    padding: 0% 33% 2% 33%;
+    font-family: 'Bebas Neue';
+    width: 660px;
+    border-radius: 0px;
+    box-shadow: -10px 10px #b76751;
 }
 
 .retraining {
@@ -177,4 +194,12 @@ h3 {
 .nurse-list {
     font-family: 'Avenir Light';
     font-size: 14px;
+}
+
+#shittyCode {
+    padding-left: 60px;
+}
+
+.joke {
+    margin-left: 1455px;
 }

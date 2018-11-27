@@ -14,33 +14,51 @@
     <div class="container jobMatches">
         <div class="text-center">
             <div class="row">
-                <div class="col-sm">
-                    <div class="whiteSquare">
-                        <a class="marissaWhite" href="/landing/job1/">
-                            <img src="{% static 'landing/images/telephone.png' %}" alt="icon - telephone">
-                            <h2>Customer Service Representative</h2>
-                        </a>
-                    </div>
+                <div class="col-xs customCol">
+                    <a class="marissaWhite" href="/landing/job1/">
+                        <div class="whiteSquare">
+                            <img class="jobPic" src="{% static 'landing/images/telephone.png' %}" alt="icon - telephone">
+                        </div>
+
+                        <div class="jobTitle">
+                            <h2>Customer Service <br/>Representative</h2>
+                        </div>
+                    </a>
+
+                    <img class="levelBar" src="{% static 'landing/images/bar1.png' %}" alt="icon - level bar 15%">
+
                 </div>
-                <div class="col-sm">
-                    <div class="whiteSquare">
-                        <a class="marissaWhite" href="/landing/job2/">
-                            <img src="{% static 'landing/images/stethoscope.png' %}" alt="icon - stethoscope">
+                <div class="col-xs customCol">
+                    <a class="marissaWhite" href="/landing/job2/">
+                        <div class="whiteSquare">
+                            <img class="jobPic" src="{% static 'landing/images/stethoscope.png' %}"
+                                 alt="icon - stethoscope">
+                        </div>
+
+                        <div class="jobTitle">
                             <h2>Nurse's Aide</h2>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
+
+                    <img class="levelBar" src="{% static 'landing/images/bar2.png' %}" alt="icon - level bar 50%">
                 </div>
-                <div class="col-sm">
-                    <div class="whiteSquare">
-                        <a class="marissaWhite" href="/landing/job3/">
-                            <img src="{% static 'landing/images/house.png' %}" alt="icon - house">
-                            <h2>Real Estate Sales Associate</h2>
-                        </a>
-                    </div>
+
+                <div class="col-xs customCol">
+                    <a class="marissaWhite" href="/landing/job3/">
+                        <div class="whiteSquare">
+                            <img class="jobPic" src="{% static 'landing/images/house.png' %}" alt="icon - house">
+                        </div>
+
+                        <div class="jobTitle">
+                            <h2>Real Estate Sales <br/>Associate</h2>
+                        </div>
+                    </a>
+
+                    <img class="levelBar" src="{% static 'landing/images/bar3.png' %}" alt="icon - level bar 85%">
                 </div>
             </div>
         </div>
     </div>
 
-    <a href="/landing/buildresume"><button type="button" class="btn navBtn centeredBtn"> Resume Template </button></a>
+    <a href="/landing/buildresume"><button type="button" class="btn btn-xl-lg-txt skipBtn centeredBtn"> Resume <br/>Template </button></a>
 {% endblock %}
