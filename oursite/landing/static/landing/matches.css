@@ -8,7 +8,6 @@
 
 .jobMatches{
     margin-top: 80px;
-    padding-left: 180px;
 }
 
 .whiteSquare{
@@ -42,4 +41,8 @@
 
 .customCol{
     padding: 0px 20px;
+}
+
+.firstCol{
+    padding-top: 287px;
 }
